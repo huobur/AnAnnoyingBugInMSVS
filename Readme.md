@@ -63,8 +63,9 @@ By adding resource info, it should look like this and fix your problem:
 I hope that it helps if you are still having the similar issue.
 
 ## TIP:
-When you design images on the canvas, don't worry too much on aligning them manually, you just want to drag them onto your canvas first and connect the image resources. After that you calculate exactly where you need them to be and type in the positions (Height, Margin and Width). 
-After you change your project file, you need to save it and rebuild your project before debugging.
+1. When you design images on the canvas, don't worry too much on aligning them manually, you just want to drag them onto your canvas first and connect the image resources. After that you calculate exactly where you need them to be and type in the positions (Height, Margin and Width). 
+
+2. After you change your project file, you need to save it and rebuild your project before debugging.
 
 ## References:
 [1] https://docs.microsoft.com/en-us/dotnet/standard/analyzers/portability-analyzer
