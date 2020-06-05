@@ -6,7 +6,8 @@ To demonstrate this problem, I installed both MSVS (Microsoft Visual Studio) Com
 ## Here are the steps:
 1. Open MSVS and select "Create a new project"
 2. You'd need to search for "WPF App (.NET Core) C#" for your project template:
-Fig. 1 Create WPF App on .NET Core3. 
+![CreateProject](SelectWPFAppNETCore1.png)
+                       Fig. 1 Create WPF App on .NET Core3. 
 3. Click on "Next", you'll be prompted for project folder and project name:
 4. You can change them for your preferences, and click on "Create"
 5. Your solution panel should look like the following:
