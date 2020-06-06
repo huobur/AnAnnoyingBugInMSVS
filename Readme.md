@@ -1,4 +1,4 @@
-# An Annoying Bug in Visual Studio for .NET Core 3.x and .NET 5
+# An Annoying Bug in Visual Studio for .NET Core 3 and .NET 5
 
 Recently, I was working on a project migration from .NET Framework to .NET Core. Following certain guidelines and tools [1], everything moved rather smoothly. However, there was one issue which didn't seem to be obvious, but didn't work: some resources were not recognized and wouldn't build or wouldn't show up. One of things I tried was to change all the resource paths to absolute paths in the project to see what happened, well, it worked! This got me thinking that something in the process or the platform tool chain itself had issues. By more searching and digging, finally it was determined that the .NET Core build process was broken when you had resources which were not taken care of.
 To demonstrate this problem, I installed both MSVS (Microsoft Visual Studio) Community 2019 Version 16.6.1 (to support .NET Core 3.0 and 3.1) [2] and MSVS Community 2019 Preview Version 16.7.0 Preview 2.0 (to support .NET 5.0) [3] to confirm this problem. They both showed the same issue. I hope that Microsoft can fix it soon as it's been a while.
@@ -75,3 +75,6 @@ I hope that it helps if you are still having the similar issue.
 [3] https://visualstudio.microsoft.com/vs/preview/
 
 [4] https://stackoverflow.com/questions/1192054/load-image-from-resources-area-of-project-in-c-sharp
+
+It's also posted on medium.com:
+https://medium.com/@huobur/an-annoying-bug-in-visual-studio-for-net-core-3-x-and-net-5-20208a5bc7f0
