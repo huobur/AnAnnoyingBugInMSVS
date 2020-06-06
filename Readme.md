@@ -77,4 +77,5 @@ I hope that it helps if you are still having the similar issue.
 [4] https://stackoverflow.com/questions/1192054/load-image-from-resources-area-of-project-in-c-sharp
 
 It's also posted on medium.com:
+
 https://medium.com/@huobur/an-annoying-bug-in-visual-studio-for-net-core-3-x-and-net-5-20208a5bc7f0
